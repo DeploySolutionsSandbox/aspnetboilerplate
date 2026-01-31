@@ -87,7 +87,7 @@ namespace Abp.Runtime.Serialization
         }
 
         /// <summary>
-        /// TODO@net10.0 -> See https://learn.microsoft.com/en-us/dotnet/standard/serialization/binaryformatter-migration-guide/
+        /// TODO@NET9.0 -> See https://learn.microsoft.com/en-us/dotnet/standard/serialization/binaryformatter-migration-guide/
         /// </summary>
         /// <param name="extended"></param>
         /// <returns></returns>

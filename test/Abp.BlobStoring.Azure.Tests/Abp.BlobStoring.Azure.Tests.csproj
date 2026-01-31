@@ -15,5 +15,9 @@
 		<ProjectReference Include="..\Abp.BlobStoring.Tests\Abp.BlobStoring.Tests.csproj" />
 		<ProjectReference Include="..\Abp.Tests\Abp.Tests.csproj" />
 	</ItemGroup>
+	
+	<ItemGroup>
+	  <PackageReference Update="Microsoft.SourceLink.GitHub" Version="10.0.102" />
+	</ItemGroup>
 
 </Project>

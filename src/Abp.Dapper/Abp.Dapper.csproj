@@ -4,7 +4,6 @@
   <Import Project="..\..\configureawait.props" />
   
   <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
     <AssemblyName>Abp.Dapper</AssemblyName>
     <PackageId>Abp.Dapper</PackageId>
     <PackageTags>asp.net;asp.net mvc;boilerplate;application framework;web framework;framework;domain driven design;Dapper;ORM</PackageTags>
@@ -35,6 +34,7 @@
 
   <ItemGroup>
     <PackageReference Update="Fody" Version="6.9.3" />
+    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="10.0.102" />
   </ItemGroup>
 
 </Project>

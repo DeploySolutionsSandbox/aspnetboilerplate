@@ -17,4 +17,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\src\Abp.AspNetCore\Abp.AspNetCore.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="10.0.102" />
+  </ItemGroup>
 </Project>

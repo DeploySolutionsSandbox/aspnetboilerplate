@@ -2,7 +2,6 @@
   <Import Project="..\..\common.props" />
   <Import Project="..\..\configureawait.props" />
   <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>Abp.AspNetCore.PerRequestRedisCache</AssemblyName>
     <PackageId>Abp.AspNetCore.PerRequestRedisCache</PackageId>
@@ -18,12 +17,13 @@
     <Description>Abp.AspNetCore.PerRequestRedisCache</Description>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.9" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Abp.RedisCache\Abp.RedisCache.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Update="Fody" Version="6.9.3" />
+    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="10.0.102" />
   </ItemGroup>
 </Project>
