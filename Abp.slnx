@@ -19,6 +19,7 @@
     <Project Path="src/Abp.BlobStoring.FileSystem/Abp.BlobStoring.FileSystem.csproj" />
     <Project Path="src/Abp.BlobStoring/Abp.BlobStoring.csproj" />
     <Project Path="src/Abp.Castle.Log4Net/Abp.Castle.Log4Net.csproj" />
+    <Project Path="src/Abp.Castle.Serilog/Abp.Logging.Serilog.csproj" />
     <Project Path="src/Abp.Dapper/Abp.Dapper.csproj" />
     <Project Path="src/Abp.EntityFramework.Common/Abp.EntityFramework.Common.csproj" />
     <Project Path="src/Abp.EntityFramework/Abp.EntityFramework.csproj" />
