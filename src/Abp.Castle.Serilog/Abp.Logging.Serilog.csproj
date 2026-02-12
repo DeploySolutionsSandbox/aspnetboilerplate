@@ -19,7 +19,7 @@
   <ItemGroup>
     <PackageReference Include="Castle.Core-Serilog" Version="5.2.1" />
     <PackageReference Include="Castle.LoggingFacility" Version="6.0.0" />
-    <PackageReference Include="Serilog" Version="4.3.0" />
+    <PackageReference Include="Serilog" Version="4.3.1" />
     <PackageReference Include="Serilog.AspNetCore" Version="10.0.0" />
     <PackageReference Include="Serilog.Extensions.Logging" Version="10.0.0" />
     <PackageReference Include="Serilog.Settings.Configuration" Version="10.0.0" />
@@ -33,7 +33,7 @@
 
   <ItemGroup>
     <PackageReference Update="Fody" Version="6.9.3" />
-    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="10.0.102" />
+    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="10.0.103" />
   </ItemGroup>
 
 </Project>

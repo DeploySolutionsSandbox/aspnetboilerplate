@@ -38,7 +38,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="10.0.102" />
+    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="10.0.103" />
   </ItemGroup>
 
   <ProjectExtensions><VisualStudio><UserProperties Abp_1Quartz_1Tests_1xunit_1runner_1json__JSONSchema="http://json.schemastore.org/xunit.runner.schema" /></VisualStudio></ProjectExtensions>
