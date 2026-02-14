@@ -9,6 +9,6 @@ namespace Abp.EntityFramework
         {
         }
 
-        public override string OrmContextKey => AbpConsts.Orms.EntityFramework;
+        public override string OrmContextKey => AbpConsts.Orms.EntityFrameworkCore;
     }
 }

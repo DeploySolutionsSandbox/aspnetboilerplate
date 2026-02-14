@@ -32,7 +32,6 @@
     <Project Path="src/Abp.MailKit/Abp.MailKit.csproj" />
     <Project Path="src/Abp.MemoryDb/Abp.MemoryDb.csproj" />
     <Project Path="src/Abp.MongoDB/Abp.MongoDB.csproj" />
-    <Project Path="src/Abp.NHibernate/Abp.NHibernate.csproj" />
     <Project Path="src/Abp.Quartz/Abp.Quartz.csproj" />
     <Project Path="src/Abp.RedisCache.ProtoBuf/Abp.RedisCache.ProtoBuf.csproj" />
     <Project Path="src/Abp.RedisCache/Abp.RedisCache.csproj" />
@@ -43,7 +42,6 @@
     <Project Path="src/Abp.Zero.Ldap/Abp.Zero.Ldap.csproj" />
     <Project Path="src/Abp.ZeroCore.EntityFramework/Abp.ZeroCore.EntityFramework.csproj" />
     <Project Path="src/Abp.ZeroCore.EntityFrameworkCore/Abp.ZeroCore.EntityFrameworkCore.csproj" />
-    <Project Path="src/Abp.ZeroCore.NHibernate/Abp.ZeroCore.NHibernate.csproj" />
     <Project Path="src/Abp.ZeroCore.OpenIddict.EntityFrameworkCore/Abp.ZeroCore.OpenIddict.EntityFrameworkCore.csproj" />
     <Project Path="src/Abp.ZeroCore.OpenIddict/Abp.ZeroCore.OpenIddict.csproj" />
     <Project Path="src/Abp.ZeroCore/Abp.ZeroCore.csproj" />

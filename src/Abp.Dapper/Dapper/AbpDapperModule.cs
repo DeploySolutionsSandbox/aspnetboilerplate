@@ -3,6 +3,7 @@ using Abp.Modules;
 using Abp.Orm;
 using Abp.Reflection.Extensions;
 using Slapper;
+using System;
 
 namespace Abp.Dapper
 {
@@ -25,20 +26,24 @@ namespace Abp.Dapper
 
                 foreach (ISecondaryOrmRegistrar registrar in additionalOrmRegistrars)
                 {
-                    if (registrar.OrmContextKey == AbpConsts.Orms.EntityFramework)
-                    {
-                        registrar.RegisterRepositories(IocManager, EfBasedDapperAutoRepositoryTypes.Default);
-                    }
-
-                    if (registrar.OrmContextKey == AbpConsts.Orms.NHibernate)
-                    {
-                        registrar.RegisterRepositories(IocManager, NhBasedDapperAutoRepositoryTypes.Default);
-                    }
-
                     if (registrar.OrmContextKey == AbpConsts.Orms.EntityFrameworkCore)
                     {
                         registrar.RegisterRepositories(IocManager, EfBasedDapperAutoRepositoryTypes.Default);
                     }
+                    else
+                    {
+                        throw new InvalidOperationException("OrmContextKey is not supported: " + registrar.OrmContextKey);
+                    }
+                    //if (registrar.OrmContextKey == AbpConsts.Orms.EntityFramework)
+                    //{
+                    //    registrar.RegisterRepositories(IocManager, EfBasedDapperAutoRepositoryTypes.Default);
+                    //}
+
+                    //if (registrar.OrmContextKey == AbpConsts.Orms.NHibernate)
+                    //{
+                    //    registrar.RegisterRepositories(IocManager, NhBasedDapperAutoRepositoryTypes.Default);
+                    //}
+
                 }
             }
         }

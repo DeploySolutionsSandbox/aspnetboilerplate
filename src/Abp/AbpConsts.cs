@@ -13,9 +13,9 @@ namespace Abp
         internal static class Orms
         {
             public const string Dapper = "Dapper";
-            public const string EntityFramework = "EntityFramework";
+            //public const string EntityFramework = "EntityFramework";
             public const string EntityFrameworkCore = "EntityFrameworkCore";
-            public const string NHibernate = "NHibernate";
+            //public const string NHibernate = "NHibernate";
         }
     }
 }
