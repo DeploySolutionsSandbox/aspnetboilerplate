@@ -10,6 +10,9 @@
     <Description>Abp.ZeroCore.NHibernate</Description>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="10.0.3" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\Abp.FluentMigrator\Abp.FluentMigrator.csproj" />
     <ProjectReference Include="..\Abp.NHibernate\Abp.NHibernate.csproj" />
     <ProjectReference Include="..\Abp.ZeroCore\Abp.ZeroCore.csproj" />
