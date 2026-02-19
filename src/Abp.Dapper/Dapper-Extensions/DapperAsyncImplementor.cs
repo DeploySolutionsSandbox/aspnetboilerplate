@@ -6,7 +6,7 @@ using Abp.Dapper_Extensions.Mapper;
 using Abp.Dapper_Extensions.Predicate;
 using Abp.Dapper_Extensions.Sql;
 using Dapper;
-using AutoMapper = Slapper.AutoMapper;
+//using AutoMapper = Slapper.AutoMapper;
 
 namespace Abp.Dapper_Extensions
 {
@@ -284,7 +284,7 @@ namespace Abp.Dapper_Extensions
             var query = await GetListAsync<dynamic>(connection, classMap, predicate, sort, transaction, commandTimeout, colsToSelect);
             var data = query.ToList();
 
-            return await Task.FromResult(AutoMapper.MapDynamic<T>(data, false)).ConfigureAwait(false);
+            return await Task.FromResult(Slapper.AutoMapper.MapDynamic<T>(data, false)).ConfigureAwait(false);
         }
 
         /// <summary>
@@ -311,7 +311,7 @@ namespace Abp.Dapper_Extensions
             var query = await GetPageAsync<dynamic>(connection, classMap, predicate, sort, page, resultsPerPage, transaction, commandTimeout, colsToSelect);
             var data = query.ToList();
 
-            return await Task.FromResult(AutoMapper.MapDynamic<T>(data, false)).ConfigureAwait(false);
+            return await Task.FromResult(Slapper.AutoMapper.MapDynamic<T>(data, false)).ConfigureAwait(false);
         }
 
         /// <summary>

@@ -24,13 +24,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.Runtime" Version="4.3.1" />
-    <PackageReference Include="MailKit" Version="4.14.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Update="Fody" Version="6.9.3" />
-    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="10.0.103" />
+    <PackageReference Include="MailKit" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" />
   </ItemGroup>
 
 </Project>

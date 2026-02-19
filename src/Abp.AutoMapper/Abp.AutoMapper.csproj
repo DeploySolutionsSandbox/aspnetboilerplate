@@ -24,13 +24,9 @@
   </ItemGroup>
 
   <ItemGroup>
-	  <PackageReference Include="AutoMapper" Version="14.0.0" />
-	  <PackageReference Include="AutoMapper.Collection" Version="11.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Update="Fody" Version="6.9.3" />
-    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="10.0.103" />
+	  <PackageReference Include="AutoMapper" />
+	  <PackageReference Include="AutoMapper.Collection" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub"  />
   </ItemGroup>
 
 </Project>

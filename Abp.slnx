@@ -4,7 +4,10 @@
     <File Path=".gitignore" />
     <File Path="common.props" />
     <File Path="configureawait.props" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
     <File Path="LICENSE.md" />
+    <File Path="NuGet.Config" />
     <File Path="README.md" />
   </Folder>
   <Folder Name="/src/">
@@ -73,5 +76,4 @@
     <Project Path="test/aspnet-core-demo/AbpAspNetCoreDemo.Tests/AbpAspNetCoreDemo.IntegrationTests.csproj" />
     <Project Path="test/aspnet-core-demo/AbpAspNetCoreDemo/AbpAspNetCoreDemo.csproj" />
   </Folder>
-  <Folder Name="/test/aspnet-mvc-demo/" />
 </Solution>

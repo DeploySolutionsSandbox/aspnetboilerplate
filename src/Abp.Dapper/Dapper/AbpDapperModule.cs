@@ -13,7 +13,7 @@ namespace Abp.Dapper
         public override void PreInitialize()
         {
             Configuration.UnitOfWork.IsTransactionScopeAvailable = false;
-            Slapper.AutoMapper.Configuration.TypeConverters.Add(new AutoMapper.Configuration.EnumConverter());
+            Slapper.AutoMapper.Configuration.TypeConverters.Add(new Slapper.AutoMapper.Configuration.EnumConverter());
         }
 
         public override void Initialize()

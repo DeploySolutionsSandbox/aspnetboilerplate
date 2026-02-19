@@ -21,12 +21,11 @@
     <ProjectReference Include="..\Abp.EntityFramework.Common\Abp.EntityFramework.Common.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="EntityFramework.DynamicFilters" Version="3.2.4" />
-    <PackageReference Include="EntityFramework" Version="6.5.1" />
-    <PackageReference Include="System.Configuration.ConfigurationManager" Version="10.0.3" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Update="Fody" Version="6.9.3" />
-    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="10.0.103" />
+    <PackageReference Include="Castle.Core" />
+    <PackageReference Include="Castle.Windsor" />
+    <PackageReference Include="EntityFramework.DynamicFilters" />
+    <PackageReference Include="EntityFramework" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" />
   </ItemGroup>
 </Project>

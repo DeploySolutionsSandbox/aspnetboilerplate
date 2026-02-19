@@ -21,11 +21,8 @@
     <ProjectReference Include="..\Abp.AspNetCore\Abp.AspNetCore.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.OData" Version="9.4.1" />
-    <PackageReference Include="Microsoft.OData.ModelBuilder" Version="2.0.0" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Update="Fody" Version="6.9.3" />
-    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="10.0.103" />
+    <PackageReference Include="Microsoft.AspNetCore.OData" />
+    <PackageReference Include="Microsoft.OData.ModelBuilder" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub"  />
   </ItemGroup>
 </Project>

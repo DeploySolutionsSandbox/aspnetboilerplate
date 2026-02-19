@@ -17,23 +17,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Castle.Core-Serilog" Version="5.2.1" />
-    <PackageReference Include="Castle.LoggingFacility" Version="6.0.0" />
-    <PackageReference Include="Serilog" Version="4.3.1" />
-    <PackageReference Include="Serilog.AspNetCore" Version="10.0.0" />
-    <PackageReference Include="Serilog.Extensions.Logging" Version="10.0.0" />
-    <PackageReference Include="Serilog.Settings.Configuration" Version="10.0.0" />
-    <PackageReference Include="Serilog.Sinks.Console" Version="6.1.1" />
-    <PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Abp\Abp.csproj" />
   </ItemGroup>
-
   <ItemGroup>
-    <PackageReference Update="Fody" Version="6.9.3" />
-    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="10.0.103" />
+    <PackageReference Include="Castle.Core-Serilog" />
+    <PackageReference Include="Castle.LoggingFacility"  />
+    <PackageReference Include="Serilog"  />
+    <PackageReference Include="Serilog.AspNetCore"  />
+    <PackageReference Include="Serilog.Extensions.Logging"  />
+    <PackageReference Include="Serilog.Settings.Configuration"  />
+    <PackageReference Include="Serilog.Sinks.Console"  />
+    <PackageReference Include="Serilog.Sinks.File"  />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" />
   </ItemGroup>
+
 
 </Project>

@@ -438,7 +438,7 @@ namespace Abp.Dapper_Extensions
                     .Select(p => p.Name)
                     .ToList();
 
-                AutoMapper.Configuration.AddIdentifiers(table.IsVirtual ? table.EntityType.BaseType : table.EntityType, properties);
+                Slapper.AutoMapper.Configuration.AddIdentifiers(table.IsVirtual ? table.EntityType.BaseType : table.EntityType, properties);
             }
         }
 
@@ -474,7 +474,7 @@ namespace Abp.Dapper_Extensions
 
             SetAutoMapperIdentifier(SqlGenerator.MappedTables);
 
-            return AutoMapper.Map<T>(list, false);
+            return Slapper.AutoMapper.Map<T>(list, false);
         }
 
         protected static DynamicParameters GetDynamicParameters(Dictionary<string, object> parameters)

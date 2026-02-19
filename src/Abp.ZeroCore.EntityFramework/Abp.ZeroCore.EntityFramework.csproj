@@ -10,14 +10,7 @@
     <Description>Abp.ZeroCore.EntityFramework</Description>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="System.Configuration.ConfigurationManager" Version="10.0.3" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Abp.EntityFramework\Abp.EntityFramework.csproj" />
     <ProjectReference Include="..\Abp.ZeroCore\Abp.ZeroCore.csproj" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Update="Fody" Version="6.9.3" />
-    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="10.0.103" />
   </ItemGroup>
 </Project>

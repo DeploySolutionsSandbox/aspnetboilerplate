@@ -25,11 +25,8 @@
         <ProjectReference Include="..\Abp.AspNetCore\Abp.AspNetCore.csproj" />
     </ItemGroup>
     <ItemGroup>
-        <PackageReference Include="FluentMigrator" Version="8.0.1" />
-        <PackageReference Include="OpenIddict.AspNetCore" Version="7.2.0" />
-    </ItemGroup>
-    <ItemGroup>
-      <PackageReference Update="Fody" Version="6.9.3" />
-      <PackageReference Update="Microsoft.SourceLink.GitHub" Version="10.0.103" />
+        <PackageReference Include="FluentMigrator" />
+        <PackageReference Include="OpenIddict.AspNetCore" />
+        <PackageReference Include="Microsoft.SourceLink.GitHub" />
     </ItemGroup>
 </Project>

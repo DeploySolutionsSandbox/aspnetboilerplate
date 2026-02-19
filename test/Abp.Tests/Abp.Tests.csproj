@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-	<PropertyGroup>
-		<TargetFrameworks>net10.0</TargetFrameworks>
+  <Import Project="..\..\common.props" />
+  <Import Project="..\..\configureawait.props" />
+  <PropertyGroup>
 		<AssemblyName>Abp.Tests</AssemblyName>
 		<PackageId>Abp.Tests</PackageId>
 		<GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
@@ -29,15 +30,15 @@
 		<ProjectReference Include="..\..\src\Abp.TestBase\Abp.TestBase.csproj" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.0.1" />
-		<PackageReference Include="xunit.runner.visualstudio" Version="3.1.5">
+		<PackageReference Include="Microsoft.NET.Test.Sdk"  />
+		<PackageReference Include="xunit.runner.visualstudio">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
 		</PackageReference>
-		<PackageReference Include="NSubstitute" Version="5.3.0" />
-		<PackageReference Include="Shouldly" Version="4.3.0" />
-		<PackageReference Include="xunit" Version="2.9.3" />
-		<PackageReference Include="TimeZoneConverter" Version="7.2.0" />
+		<PackageReference Include="NSubstitute" />
+		<PackageReference Include="Shouldly" />
+		<PackageReference Include="xunit" />
+		<PackageReference Include="TimeZoneConverter" />
 	</ItemGroup>
 	<ItemGroup>
 		<Service Include="{82a7f48d-3b50-4b1e-b82e-3ada8210c358}" />
@@ -46,6 +47,6 @@
 		<Folder Include="ObjectComparators\" />
 	</ItemGroup>
 	<ItemGroup>
-	  <PackageReference Update="Microsoft.SourceLink.GitHub" Version="10.0.103" />
+	  <PackageReference Include="Microsoft.SourceLink.GitHub" />
 	</ItemGroup>
 </Project>

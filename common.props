@@ -17,12 +17,6 @@
         <None Include="../../LICENSE.md" Pack="true" PackagePath="/"/>
         <None Include="../../nupkg/abp_nupkg.png" Pack="true" PackagePath="/"/>
     </ItemGroup>
-	<ItemGroup>
-      <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" >
-        <PrivateAssets>all</PrivateAssets>
-        <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
-      </PackageReference>
-    </ItemGroup>
 
   <!-- Custom Target to Copy Debug Assemblies -->
   <Target Name="CopyDebugAssemblies" AfterTargets="Build">
